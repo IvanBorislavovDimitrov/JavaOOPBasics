@@ -1,0 +1,16 @@
+public class Robot {
+
+    private String model;
+
+    public Robot(String id, String model) {
+        this.setModel(model);
+    }
+
+    public String getModel() {
+        return this.model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+}
